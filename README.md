@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Face Recognition App
+## Overview
+This React application integrates with a back-end server to perform face recognition on images. Users can register, sign in, input image URLs, and receive real-time face detection results. The app communicates with a server deployed on Heroku for image processing.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+User authentication with sign-in and registration functionality. \
+Real-time face recognition with dynamic image display. \
+Incremental user entry count upon successful image submissions. \
+Particle background effect for enhanced user experience.
 
-## Available Scripts
+## Technologies Used
+<b>Frontend</b>: React \
+<b>Backend</b>: Node.js, Express.js \
+<b>Database</b>: PostgreSQL (deployed on Heroku) \
+<b>External Services</b>: Clarifai API for face detection \
+<b>Styling</b>: CSS \
+<b>Deployment</b>: Heroku
 
-In the project directory, you can run:
+## How to Run
+<b>Clone the Repository</b>: git clone https://github.com/your-username/face-recognition-app.git \
+<b>Navigate to the Project directory</b>: cd face-recognition-app \
+<b>Install Dependencies</b>: npm install \
+<b>Start the App</b>: npm start \
+Make sure to configure the back-end server URL in App.js for proper communication with the Clarifai API.
 
-### `npm start`
+## Contact
+Feel free to reach out for any questions or collaboration opportunities.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<b>Email</b>: pr1206@gmail.com \
+<b>LinkedIn</b>: https://www.linkedin.com/in/poojarejith
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for exploring the Face Recognition App! 🌟
